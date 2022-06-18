@@ -1,0 +1,47 @@
+body {
+    background: #1A1C28;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin-top: 50px;
+}
+
+#grid .grid-item {
+    padding: 3rem;
+}
+
+.item1 {
+    background: #EB5020;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+}
+
+.item2 {
+    background: #FFA401;
+    grid-column: 4 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.item3 {
+    background: #05AA42;
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 2;
+}
+
+.item4 {
+    background: #01AEFD;
+    grid-column: 3 / span 3;
+}
+
+.item5 {
+    background: #01AEFD;
+    grid-column: 3 / span 3;
+}
