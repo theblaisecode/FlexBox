@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f4f4f4;
+    background: #f2f2f2;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+}
+
+.box a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.box {
+    background: red;
+    margin-top: 100px;
+    padding: 2em;
+}
+
+.box .btn {
+    display: inline-block;
+    background: #f2f2f2;
+    padding: 10px 22px;
+    border-radius: 30px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.box .btn:hover {
+    background: none;
+    outline: 2px solid #f2f2f2;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.box h2 {
+    padding: 15px 0px;
+    font-size: 30px;
+}
+
+#flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.sedan {
+    background: #E28525;
+    flex-flow: 5;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.sedan a {
+    color: #E28525;
+}
+
+.suv {
+    background: #016972;
+}
+
+.suv a {
+    color: #016972;
+}
+
+.luxury {
+    background: #00403F;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.luxury a {
+    color: #00403F;
+}
