@@ -28,6 +28,7 @@ ul li a {
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
+    color: #fff;
 }
 
 .active,
