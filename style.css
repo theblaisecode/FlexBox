@@ -25,7 +25,8 @@ ul li a {
     display: inline-block;
 }
 
-.active {
+.active,
+ul li a:hover {
     background: #444;
 }
 
