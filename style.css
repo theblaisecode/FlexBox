@@ -9,6 +9,8 @@ body {
 }
 
 header {
+    margin: 0;
+    padding: 0;
     background: #333;
     color: #fff;
 }
@@ -20,9 +22,10 @@ ul {
 }
 
 ul li a {
-    padding: 20px 0;
+    padding: 20px;
     cursor: pointer;
     display: inline-block;
+    text-decoration: none;
 }
 
 .active,
