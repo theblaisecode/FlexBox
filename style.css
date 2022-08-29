@@ -25,6 +25,10 @@ ul li a {
     display: inline-block;
 }
 
+.active {
+    background: #444;
+}
+
 .container {
     margin: auto;
     width: 60%;
