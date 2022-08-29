@@ -2,6 +2,33 @@ body {
     background: #1A1C28;
 }
 
+header {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    padding: 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.active,
+ul li a:hover {
+    background: #444;
+}
+
 .container {
     margin: auto;
     width: 60%;
