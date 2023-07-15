@@ -3,7 +3,7 @@
 
 
 - A 3-column card design using CSS Flexbox Layout
-- A 5 box design using CSS Grid Layout 
+- A 5-box design using CSS Grid Layout 
 
 ## The Design
 
@@ -17,5 +17,6 @@
 
 ## Authors
 
-- [@theblaisecode](https://www.github.com/theblaisecode)
-
+- Github - [@theblaisecode](https://github.com/theblaisecode)
+- Twitter - [@theblaisecode](https://twitter.com/theblaisecode)
+- LinkedIn - [@theblaisecode](https://www.linkedin.com/in/theblaisecode)
